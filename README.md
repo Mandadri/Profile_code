@@ -4,15 +4,6 @@
 
 ## 💻 Tech Stack
 
-```yaml
-Languages: C, C++, C#, Java, JavaScript, Python, PHP, CSS
-Databases: MySQL, MongoDB, Microsoft SQL Server, SingleStore
-Cloud: AWS, Azure
-DevOps: Apache, Jenkins, Apache Airflow
-Libraries & Frameworks: .NET, Angular, PyTorch, TensorFlow, Pandas, NumPy, Webpack
-Design & UI: Figma, Framer, Adobe Photoshop, Canva
-```
-
 <p align="center">
     <img src="https://skillicons.dev/icons?i=c,cpp,cs,java,js,python,php,css,mysql,mongodb,azure,aws,docker,jenkins,angular,dotnet,pytorch,tensorflow"/>
 </p>
@@ -58,6 +49,8 @@ Design & UI: Figma, Framer, Adobe Photoshop, Canva
 ---
 
 ### 🚀 Let's Connect!
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/yourprofile)
-[![Portfolio](https://img.shields.io/badge/Portfolio-%23FF5722.svg?style=for-the-badge&logo=appveyor&logoColor=white)](https://yourportfolio.com)
-[![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Mandadri)
+<p align="center">
+    <a href="https://linkedin.com/in/yourprofile"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+    <a href="https://yourportfolio.com"><img src="https://img.shields.io/badge/Portfolio-%23FF5722.svg?style=for-the-badge&logo=appveyor&logoColor=white" alt="Portfolio" /></a>
+    <a href="https://github.com/Mandadri"><img src="https://img.shields.io/badge/GitHub-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+</p>
