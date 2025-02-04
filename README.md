@@ -1,4 +1,4 @@
-<marquee>Welcome to my profile.......This is ......Rohith</marquee>
+
 <div align="center">
     <h3> <a href="https://2kabhishek.github.io/links" target="_blank">ROHITH </a> </h3>
     <p> <b> Learner 📚 | Maker 💻 | Explorer 🔎 </b> </p>
