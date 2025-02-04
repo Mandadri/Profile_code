@@ -15,14 +15,14 @@
             <a href="https://Mandadri.github.io/blog" target="_blank" title="Blog"><img
                     src="https://img.shields.io/badge/-Blog-ff8800?style=flat&logo=blogger&logoColor=white" />
             </a>
-            <a href="https://twitter.com/Rohith" target="_blank" title="Twitter - 2KAbhishek">
-                <img src="https://img.shields.io/badge/-2KAbhishek-00acee?style=flat&logo=Twitter&logoColor=white" />
+            <a href="https://twitter.com/Rohith" target="_blank" title="Twitter - Rohith">
+                <img src="https://img.shields.io/badge/-Rohith-00acee?style=flat&logo=Twitter&logoColor=white" />
             </a>
-            <a href="https://www.linkedin.com/in/mandadri-rohith-a418901a6/" target="_blank" title="LinkedIn - 2KAbhishek">
+            <a href="https://www.linkedin.com/in/mandadri-rohith-a418901a6/" target="_blank" title="LinkedIn - Rohith">
                 <img src="https://img.shields.io/badge/-Rohith-0072b1?style=flat&logo=Linkedin&logoColor=white" />
             </a>
-            <a href="https://www.instagram.com/iam2KAbhishek" target="_blank" title="Instagram - iam2KAbhishek">
-                <img src="https://img.shields.io/badge/-iam2kabhishek-d8226b?style=flat&logo=instagram&logoColor=white" />
+            <a href="https://www.instagram.com/Rohith" target="_blank" title="Instagram - ursrohit__12">
+                <img src="https://img.shields.io/badge/- ursrohit__12-d8226b?style=flat&logo=instagram&logoColor=white" />
             </a>
             <a href="https://youtube.com/c/2KAbhishek" target="_blank" title="YouTube - 2KAbhishek">
                 <img src="https://img.shields.io/badge/-2KAbhishek-ff0000?style=flat&logo=youtube&logoColor=white" />
@@ -33,10 +33,10 @@
         </kbd>
     </p>
     <a href="https://2kabhishek.github.io/projects" target="_blank" title="Snake eats commits!">
-        <img width="700" src="https://raw.githubusercontent.com/2KAbhishek/2KAbhishek/master/assets/gen/snake.svg" />
+        <img width="700" src="https://raw.githubusercontent.com/Rohith/Rohith/master/assets/gen/snake.svg" />
     </a>
-    <a href="https://2kabhishek.github.io/projects" target="_blank" title="GitHub metrics!">
-        <img width="500" src="https://raw.githubusercontent.com/2KAbhishek/2KAbhishek/master/assets/gen/metrics.svg" />
+    <a href="https://Mandadri.github.io/projects" target="_blank" title="GitHub metrics!">
+        <img width="500" src="https://raw.githubusercontent.com/Rohith/Rohith/master/assets/gen/metrics.svg" />
     </a>
     <p> If you like my work, hit <b>✨ Follow ✨</b> for updates </p>
 </div>
