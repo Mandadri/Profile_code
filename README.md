@@ -24,15 +24,15 @@
             <a href="https://www.instagram.com/Rohith" target="_blank" title="Instagram - ursrohit__12">
                 <img src="https://img.shields.io/badge/- ursrohit__12-d8226b?style=flat&logo=instagram&logoColor=white" />
             </a>
-            <a href="https://youtube.com/c/2KAbhishek" target="_blank" title="YouTube - 2KAbhishek">
-                <img src="https://img.shields.io/badge/-2KAbhishek-ff0000?style=flat&logo=youtube&logoColor=white" />
+            <a href="https://youtube.com/c/iamrohit12" target="_blank" title="YouTube - iamrohit12">
+                <img src="https://img.shields.io/badge/iamrohit12--ff0000?style=flat&logo=youtube&logoColor=white" />
             </a>
-            <a href="https://2kabhishek.github.io/links" target="_blank" title="More Links">
+            <a href="https://Mandadri.github.io/links" target="_blank" title="More Links">
                 <img src="https://img.shields.io/badge/-More-09b43a?style=flat&logo=linkfire&logoColor=white" />
             </a>
         </kbd>
     </p>
-    <a href="https://2kabhishek.github.io/projects" target="_blank" title="Snake eats commits!">
+    <a href="https://Mandadri.github.io/projects" target="_blank" title="Snake eats commits!">
         <img width="700" src="https://raw.githubusercontent.com/Rohith/Rohith/master/assets/gen/snake.svg" />
     </a>
     <a href="https://Mandadri.github.io/projects" target="_blank" title="GitHub metrics!">
