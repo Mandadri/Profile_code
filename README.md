@@ -1,289 +1,71 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Rohith - GitHub Profile</title>
-    <style>
-        /* General Body and Page Styling */
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-            color: #333;
-            line-height: 1.6;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            min-height: 100vh;
-        }
-
-        /* Header Section */
-        header {
-            background-color: #222;
-            color: white;
-            padding: 40px;
-            text-align: center;
-            margin-bottom: 20px;
-        }
-
-        header h1 {
-            margin: 0;
-            font-size: 48px;
-            text-transform: uppercase;
-            letter-spacing: 3px;
-        }
-
-        header p {
-            font-size: 20px;
-            margin-top: 10px;
-        }
-
-        /* Name Grid Styling */
-        .name-grid {
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
-            grid-template-rows: auto;
-            gap: 10px;
-            justify-items: center;
-            align-items: center;
-            padding: 50px 10%;
-            text-align: center;
-            background-color: #fff;
-            border-bottom: 2px solid #ddd;
-        }
-
-        .name-grid h2 {
-            font-size: 36px;
-            margin: 0;
-            color: #222;
-            font-weight: bold;
-            text-transform: uppercase;
-        }
-
-        .name-grid .line {
-            width: 100%;
-            height: 2px;
-            background-color: #1e90ff;
-            margin: 10px 0;
-        }
-
-        /* Welcome Section */
-        .welcome-section {
-            background-color: #222;
-            color: white;
-            padding: 20px 0;
-            text-align: center;
-            margin-bottom: 30px;
-        }
-
-        .welcome-section h3 {
-            font-size: 24px;
-            margin: 0;
-        }
-
-        /* Profile Content Section */
-        section {
-            padding: 30px;
-            background-color: #fff;
-        }
-
-        h2 {
-            font-size: 28px;
-            color: #222;
-            margin-bottom: 20px;
-        }
-
-        .section-content {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 20px;
-        }
-
-        .section-item {
-            background-color: #fff;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            padding: 20px;
-            width: 48%;
-        }
-
-        .section-item h3 {
-            margin: 0 0 10px;
-        }
-
-        .section-item p {
-            margin: 10px 0;
-        }
-
-        .skills-list, .projects-list {
-            list-style: none;
-            padding-left: 0;
-        }
-
-        .skills-list li, .projects-list li {
-            margin: 8px 0;
-            font-size: 16px;
-        }
-
-        /* Contact Information */
-        .contact-info {
-            margin-top: 30px;
-            text-align: center;
-            background-color: #222;
-            color: white;
-            padding: 20px;
-        }
-
-        .contact-info a {
-            color: #1e90ff;
-            text-decoration: none;
-        }
-
-        .contact-info a:hover {
-            text-decoration: underline;
-        }
-
-        footer {
-            text-align: center;
-            padding: 10px;
-            background-color: #222;
-            color: white;
-            position: absolute;
-            width: 100%;
-            bottom: 0;
-        }
-
-        footer p {
-            margin: 0;
-        }
-
-        /* 3D Animation Styling */
-        .animation-embed {
-            width: 100%;
-            height: 500px;
-            border: none;
-        }
-
-        /* Responsive Design */
-        @media (max-width: 768px) {
-            .name-grid {
-                grid-template-columns: 1fr;
-                padding: 50px 5%;
-            }
-
-            .section-content {
-                flex-direction: column;
-                gap: 10px;
-            }
-
-            .section-item {
-                width: 100%;
-            }
-        }
-    </style>
-</head>
-
-<body>
-
-<header>
-    <h1>Rohith</h1>
-    <p>Welcome to my GitHub Profile! I'm passionate about coding, data science, and 3D animation.</p>
-</header>
-
-<div class="name-grid">
-    <div class="line"></div>
-    <h2>Rohith</h2>
-    <div class="line"></div>
-</div>
-
-<div class="welcome-section">
-    <h3>Welcome to my GitHub Profile! Feel free to explore my work and projects.</h3>
-</div>
-
-<section>
-    <h2>About Me</h2>
-    <div class="section-content">
-        <div class="section-item">
-            <h3>Introduction</h3>
-            <p>
-                I am a passionate software engineer with a deep interest in AI, web development, and 3D animation. I love working on innovative projects and collaborating with others to bring ideas to life. My skills include working with various technologies such as Python, JavaScript, AI frameworks, and 3D design tools.
-            </p>
-        </div>
-        <div class="section-item">
-            <h3>Skills & Technologies</h3>
-            <ul class="skills-list">
-                <li>Python</li>
-                <li>JavaScript</li>
-                <li>AI & Machine Learning</li>
-                <li>3D Animation</li>
-                <li>React</li>
-                <li>Node.js</li>
-                <li>TensorFlow</li>
-                <li>Web Development</li>
-            </ul>
-        </div>
-    </div>
-</section>
-
-<section>
-    <h2>Current Projects</h2>
-    <div class="section-content">
-        <div class="section-item">
-            <h3>Project 1: [Project Name]</h3>
-            <p>[Project Description]</p>
-            <p>Technologies used: [Technologies]</p>
-            <p><a href="[GitHub URL]" target="_blank">View on GitHub</a></p>
-        </div>
-        <div class="section-item">
-            <h3>Project 2: [Project Name]</h3>
-            <p>[Project Description]</p>
-            <p>Technologies used: [Technologies]</p>
-            <p><a href="[GitHub URL]" target="_blank">View on GitHub</a></p>
-        </div>
-    </div>
-</section>
-
-<section>
-    <h2>3D Animation Showcase</h2>
-    <div class="section-item">
-        <h3>Here’s a 3D animation I’ve worked on:</h3>
-        <iframe class="animation-embed" src="https://sketchfab.com/models/[Model-ID]/embed" title="3D Model - [Your Model Name]"></iframe>
-        <p>You can also view more of my animations on [Portfolio/Website].</p>
-    </div>
-</section>
-
-<section>
-    <h2>Education & Certifications</h2>
-    <div class="section-content">
-        <div class="section-item">
-            <h3>Degree in [Field of Study]</h3>
-            <p>[University Name], [Year]</p>
-            <p>Certifications: [Certification 1], [Certification 2], [Certification 3]</p>
-        </div>
-    </div>
-</section>
-
-<section>
-    <h2>Open to Collaborations</h2>
-    <div class="section-item">
-        <p>I am always looking for opportunities to collaborate on exciting projects in the fields of AI, web development, and 3D animation.</p>
-        <p>If you have an interesting project or need help, feel free to reach out to me via the contact section below.</p>
-    </div>
-</section>
-
-<section class="contact-info">
-    <h2>Contact Information</h2>
-    <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
-    <p>LinkedIn: <a href="https://www.linkedin.com/in/[your-linkedin-profile]" target="_blank">[Your LinkedIn]</a></p>
-    <p>GitHub: <a href="https://github.com/[your-github-username]" target="_blank">[Your GitHub]</a></p>
-</section>
-
-<footer>
-    <p>&copy; 2025 Rohith. All rights reserved.</p>
-</footer>
-
-</body>
-</html>
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" font-family="ConsolasFallback,Consolas,monospace" width="985px" height="530px" font-size="16px">
+<style>
+@font-face {
+src: local('Consolas'), local('Consolas Bold');
+font-family: 'ConsolasFallback';
+font-display: swap;
+-webkit-size-adjust: 109%;
+size-adjust: 109%;
+}
+.key {fill: #ffa657;}
+.value {fill: #a5d6ff;}
+.addColor {fill: #3fb950;}
+.delColor {fill: #f85149;}
+.cc {fill: #616e7f;}
+text, tspan {white-space: pre;}
+</style>
+<rect width="985px" height="530px" fill="#161b22" rx="15"/>
+<text x="15" y="30" fill="#c9d1d9" class="ascii">
+<tspan x="15" y="30">           g@M%@%%@N%Nw,,                   </tspan>
+<tspan x="15" y="50">        ,M*|`||*%gNM=]mM%g||%N,             </tspan>
+<tspan x="15" y="70">       p!``  '! |''` '''|||jhlj%w           </tspan>
+<tspan x="15" y="90">     ,@L `    ,,        ''!`|j%M]%M         </tspan>
+<tspan x="15" y="110">    ]j'` .,wp@pw,    `.     ''''|%Wg       </tspan>
+<tspan x="15" y="130">  /{||]@@@@@@@@@pp.             |||||      </tspan>
+<tspan x="15" y="150"> '` ']@@@@@@@@@@@@@@p     , ,'''` `        </tspan>
+<tspan x="15" y="170">  , :]%%@@@@@%%%%%%k%h '*||mkr     *       </tspan>
+<tspan x="15" y="190">  '  j%M`      |jkk'   ~nrn=|i    ;`       </tspan>
+<tspan x="15" y="210">   !  jrr*^`             `"!  L'':!   </tspan>
+<tspan x="15" y="230">    j  lp;,.  ,/ @@    ,;\nmy "  ,~   </tspan>
+<tspan x="15" y="250">   i r @@@@mmHM @@@@ `^****M*,p ;,         </tspan>
+<tspan x="15" y="270">   | ]@@@@HHH]g@M%%%%%H,jmgpmb%  j         </tspan>
+<tspan x="15" y="290">    ;;%%%%%k%@[,.n|;.;j%%k|%k%%',[         </tspan>
+<tspan x="15" y="310">     H|%%k%%%j%k||,;;j;!!'|%ij}]@          </tspan>
+<tspan x="15" y="330">     "djjmkL,"]][,,,,wwxw;|#kjk` </tspan>
+<tspan x="15" y="350">       %;%km%%%%M%M|%%jkkii|||[            </tspan>
+<tspan x="15" y="370">        kjj%%kkkl|!||||||j|||"        </tspan>
+<tspan x="15" y="390">         |jm%H@@@b%%kkmk%i|!,[             </tspan>
+<tspan x="15" y="410">         @p|j%%%%jkk|||j*'`;j[             </tspan>
+<tspan x="15" y="430">        ]@@@g|'''`'''  ` ,;j%k             </tspan>
+<tspan x="15" y="450">        @@@@@mgmp;,,,,:;jj%%k%             </tspan>
+<tspan x="15" y="470">       @@@@@@@@%%kgki!|jjjj%k%@ .          </tspan>
+<tspan x="15" y="490">. ^['' %@@@@HH%b%k{illljkjj%%%% ; `,.      </tspan>
+<tspan x="15" y="510">=[' ` . %HH%%%%%H@gkilljjj%kk%".   `'i</tspan>
+</text>
+<text x="390" y="30" fill="#c9d1d9">
+<tspan x="390" y="30">andrew@grant</tspan> -———————————————————————————————————————————-—-
+<tspan x="390" y="50" class="cc">. </tspan><tspan class="key">OS</tspan>:<tspan class="cc"> ........................ </tspan><tspan class="value">Windows 10, Android 14, Linux</tspan>
+<tspan x="390" y="70" class="cc">. </tspan><tspan class="key">Uptime</tspan>:<tspan class="cc" id="age_data_dots"> ...................... </tspan><tspan class="value" id="age_data">22 years, 5 months, 29 days</tspan>
+<tspan x="390" y="90" class="cc">. </tspan><tspan class="key">Host</tspan>:<tspan class="cc"> ............................. </tspan><tspan class="value">TTM Technologies, Inc.</tspan>
+<tspan x="390" y="110" class="cc">. </tspan><tspan class="key">Kernel</tspan>:<tspan class="cc"> ...... </tspan><tspan class="value">CAM (Computer Aided Manufacturing) Operator</tspan>
+<tspan x="390" y="130" class="cc">. </tspan><tspan class="key">IDE</tspan>:<tspan class="cc"> ........................ </tspan><tspan class="value">IDEA 2023.3.2, VSCode 1.96.0</tspan>
+<tspan x="390" y="150" class="cc">. </tspan>
+<tspan x="390" y="170" class="cc">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Programming</tspan>:<tspan class="cc"> ..... </tspan><tspan class="value">Java, Python, JavaScript, C++</tspan>
+<tspan x="390" y="190" class="cc">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Computer</tspan>:<tspan class="cc"> ......... </tspan><tspan class="value">HTML, CSS, JSON, LaTeX, YAML</tspan>
+<tspan x="390" y="210" class="cc">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Real</tspan>:<tspan class="cc"> ......................... </tspan><tspan class="value">English, Spanish</tspan>
+<tspan x="390" y="230" class="cc">. </tspan>
+<tspan x="390" y="250" class="cc">. </tspan><tspan class="key">Hobbies</tspan>.<tspan class="key">Software</tspan>:<tspan class="cc"> .... </tspan><tspan class="value">Minecraft Modding, iOS Jailbreaking</tspan>
+<tspan x="390" y="270" class="cc">. </tspan><tspan class="key">Hobbies</tspan>.<tspan class="key">Hardware</tspan>:<tspan class="cc"> ............. </tspan><tspan class="value">Overclocking, Undervolting</tspan>
+<tspan x="390" y="310">- Contact</tspan> -——————————————————————————————————————————————-—-
+<tspan x="390" y="330" class="cc">. </tspan><tspan class="key">Email</tspan>.<tspan class="key">Personal</tspan>:<tspan class="cc"> ..................... </tspan><tspan class="value">agrantnmac@gmail.com</tspan>
+<tspan x="390" y="350" class="cc">. </tspan><tspan class="key">Email</tspan>.<tspan class="key">Personal</tspan>:<tspan class="cc"> .................... </tspan><tspan class="value">andrew@grant.software</tspan>
+<tspan x="390" y="370" class="cc">. </tspan><tspan class="key">Email</tspan>.<tspan class="key">Work</tspan>:<tspan class="cc"> ..................... </tspan><tspan class="value">Andrew.Grant@ttmtech.com</tspan>
+<tspan x="390" y="390" class="cc">. </tspan><tspan class="key">LinkedIn</tspan>:<tspan class="cc"> .................................... </tspan><tspan class="value">Andrew6rant</tspan>
+<tspan x="390" y="410" class="cc">. </tspan><tspan class="key">Discord</tspan>:<tspan class="cc"> ..................................... </tspan><tspan class="value">andrew6rant</tspan>
+<tspan x="390" y="450">- GitHub Stats</tspan> -—————————————————————————————————————————-—-
+<tspan x="390" y="470" class="cc">. </tspan><tspan class="key">Repos</tspan>:<tspan class="cc" id="repo_data_dots"> .... </tspan><tspan class="value" id="repo_data">95</tspan> {<tspan class="key">Contributed</tspan>: <tspan class="value" id="contrib_data">133</tspan>} | <tspan class="key">Stars</tspan>:<tspan class="cc" id="star_data_dots"> ........... </tspan><tspan class="value" id="star_data">323</tspan>
+<tspan x="390" y="490" class="cc">. </tspan><tspan class="key">Commmits</tspan>:<tspan class="cc" id="commit_data_dots"> ................. </tspan><tspan class="value" id="commit_data">2,116</tspan> | <tspan class="key">Followers</tspan>:<tspan class="cc" id="follower_data_dots"> ....... </tspan><tspan class="value" id="follower_data">183</tspan>
+<tspan x="390" y="510" class="cc">. </tspan><tspan class="key">Lines of Code on GitHub</tspan>:<tspan class="cc" id="loc_data_dots">. </tspan><tspan class="value" id="loc_data">446,276</tspan> ( <tspan class="addColor" id="loc_add">523,178</tspan><tspan class="addColor">++</tspan>, <tspan id="loc_del_dots"> </tspan><tspan class="delColor" id="loc_del">76,902</tspan><tspan class="delColor">--</tspan> )
+</text>
+</svg>
