@@ -6,20 +6,20 @@
     <p> I code to make lives easier and to make learning more fun! </p>
     <p align="center">
         <kbd>
-            <a href="mailto:iam2kabhishek@gmail.com" target="_blank" title="Mail">
+            <a href="mailto:rohithmandadri@gmail.com" target="_blank" title="Mail">
                 <img src="https://img.shields.io/badge/-Mail-ff4500?style=flat&logo=gmail&logoColor=white" />
             </a>
-            <a href="https://2kabhishek.github.io/projects" target="_blank" title="Blog"><img
+            <a href="https://Mandadri.github.io/projects" target="_blank" title="Blog"><img
                     src="https://img.shields.io/badge/-Projects-3a3a3a?style=flat&logo=github&logoColor=white" />
             </a>
-            <a href="https://2kabhishek.github.io/blog" target="_blank" title="Blog"><img
+            <a href="https://Mandadri.github.io/blog" target="_blank" title="Blog"><img
                     src="https://img.shields.io/badge/-Blog-ff8800?style=flat&logo=blogger&logoColor=white" />
             </a>
-            <a href="https://twitter.com/2kabhishek" target="_blank" title="Twitter - 2KAbhishek">
+            <a href="https://twitter.com/Rohith" target="_blank" title="Twitter - 2KAbhishek">
                 <img src="https://img.shields.io/badge/-2KAbhishek-00acee?style=flat&logo=Twitter&logoColor=white" />
             </a>
-            <a href="https://www.linkedin.com/in/2kabhishek" target="_blank" title="LinkedIn - 2KAbhishek">
-                <img src="https://img.shields.io/badge/-2KAbhishek-0072b1?style=flat&logo=Linkedin&logoColor=white" />
+            <a href="https://www.linkedin.com/in/mandadri-rohith-a418901a6/" target="_blank" title="LinkedIn - 2KAbhishek">
+                <img src="https://img.shields.io/badge/-Rohith-0072b1?style=flat&logo=Linkedin&logoColor=white" />
             </a>
             <a href="https://www.instagram.com/iam2KAbhishek" target="_blank" title="Instagram - iam2KAbhishek">
                 <img src="https://img.shields.io/badge/-iam2kabhishek-d8226b?style=flat&logo=instagram&logoColor=white" />
